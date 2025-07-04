@@ -18,5 +18,6 @@ public class Product {
     @Id // This annotation marks the 'prd_id' field as the primary key
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Strategy for primary key generation
     private Long prd_id; // Often a Long or Integer for primary keys
+    private String prd_name; 
 
 }
